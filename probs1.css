@@ -1,0 +1,375 @@
+.sec3 {
+ background-image: url(wedding.avif);
+  margin-top: 3px;
+  align-content: center;
+ justify-content: center;
+ width: 100%;
+ min-height: 500px;
+ background-position: center;
+ object-fit: cover;
+
+}
+
+.text-area {
+  color: white;
+  text-align:right;
+  display: flex;
+  flex-direction: column;
+  align-content: end;    /* vertically center text */
+  height: 100%; 
+  padding: 60px 20px;         /* spacing for mobile */
+}
+
+/* .sec3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     
+  display: block;
+} */
+.hero-img {
+    max-height: 700px;    
+    width: 100%;
+    object-fit: cover; 
+    background-position: center;
+    background-size: cover;
+    
+    background-repeat: no-repeat;  
+}
+
+.sec2{
+    background-color: rgb(228, 8, 8);
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding-top: 15px;
+
+}
+.sec4 .circle {
+    width: 90px;
+    height: 90px;
+    /* background-color: #ddd; */
+    border-radius: 50%;
+    margin: 0 auto;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 h5 {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.sec4 p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.circle{
+    background-color: antiquewhite;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sec4 .circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sec4 h5 {
+        font-size: 16px;
+    }
+
+    .sec4 p {
+        font-size: 13px;
+    }
+}
+.sec5{
+    background-color:#045b83;
+    color: white;
+    /* min-height: 700px;
+    text-align: center;
+    align-content: center;
+    line-height: 2; */
+
+}
+/* .box{
+    background-color: white;
+    min-height: 400px;
+    width: 100%;
+   
+
+  
+}  */
+
+.brand-box {
+  text-align: center;
+}
+
+.brand-img {
+  height: 280px; 
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.brand-title {
+  color: white;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+/* Button Style */
+.start-btn {
+  background-color: #00a8cc;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+}
+
+.start-btn:hover {
+  background-color: #008db0;
+}
+
+/* Mobile Responsive Fix */
+@media (max-width: 576px) {
+  .brand-img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+  }
+}
+
+.sec6{
+    text-align: center;
+    align-content: center;
+    padding-top: 20px;
+}
+
+
+.review-box {
+  background: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+}
+
+.review-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sec7{
+    background-color: #fff5ed;
+    text-align: center;
+   
+}
+.sec7 h1 {
+  color: #00115a;
+}
+
+.sec7 p {
+  color: #333;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.sec7 img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.sec8{
+    text-align: center;
+}
+.sec8 .circle{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  
+   margin: 0 auto;           
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sec8 h5 {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.sec8 p {
+    text-align: center;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sec8 .circle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sec8 h5 {
+        font-size: 16px;
+    }
+
+    .sec8 p {
+        font-size: 13px;
+    }
+}
+.sec9{
+    background-color:#045b83;
+    color: white;
+
+
+    
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+    min-height: 400px;
+}
+
+.title-script {
+  font-family: 'Brush Script MT', cursive;
+  font-weight: 400;
+  
+}
+
+.sign-btn {
+  border-radius: 30px;
+  color: white;
+  font-size: 1.1rem;
+}
+
+
+.sec10{
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.sec10 {
+  background: #f8f9fa; /* light clean background */
+}
+
+.disclaimer-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #444;
+  text-align: center;
+}
+
+.sec2 {
+  background-color: red; /* soft blue background */
+}
+
+.offer-text {
+  font-size: 1.1rem;
+  color:white;
+  font-weight: 500;
+}
+
+.navbar {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.nav-link {
+  color: #003366 !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0056b3 !important;
+}
+
+.btn-info {
+  background-color: #17a2b8 !important;
+  border: none;
+}
+
+.btn-info:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+/* ------------------------
+   ZOLA HERO SECTION
+   ------------------------ */
+
+.zola-hero {
+  position: relative;
+  width: 100%;
+  height: 70vh;                 /* Same height as Zola */
+  background-image: url("flower.avif");   /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dark gradient overlay like Zola */
+.zola-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4)
+  );
+  z-index: 1;
+}
+
+/* Center text on top of overlay */
+.zola-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  max-width: 700px;
+  padding: 20px;
+}
+
+/* Zola Heading */
+.zola-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Zola Paragraph */
+.zola-content p {
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .zola-hero {
+    height: 60vh;
+  }
+  .zola-content h1 {
+    font-size: 32px;
+  }
+  .zola-content p {
+    font-size: 24px;
+  }
+}
